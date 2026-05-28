@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -13,6 +15,7 @@ public class Main {
          int[] arr={1,2,9,6,6};
             System.out.println("Largest element in array : "+LargestAndSmallestElementInArray.getLargestElement(arr));
             System.out.println("Smallest element in array : "+LargestAndSmallestElementInArray.getSmallestElement(arr));
-
+            int[] reverseArray=ReverseArray.reverseArray(arr);
+            System.out.println("Reverse elements in array : "+ Arrays.toString(reverseArray));
     }
 }
